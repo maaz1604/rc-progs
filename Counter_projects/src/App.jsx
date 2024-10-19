@@ -19,6 +19,10 @@ function App() {
     }
   };
 
+  const resetValue = () => {
+    setCounter(15);
+  };
+
   return (
     <>
       <h1>Counter progs</h1>
@@ -26,6 +30,8 @@ function App() {
       <button onClick={addValue}>Add value {counter}</button>
       <br />
       <button onClick={removeValue}>Remove value {counter} </button>
+      <br />
+      <button onClick={resetValue}>Reset value {counter}</button>
       <br />
       <p>Footer : {counter} </p>
     </>
