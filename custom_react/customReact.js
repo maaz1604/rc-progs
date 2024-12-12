@@ -7,6 +7,7 @@ function customRender(reactElement, mainContainer) {
   mainContainer.appendChild(domElement);
   */
   // Now we have to make it more modular
+  //we can use now loop based code
   const domElement = document.createElement(reactElement.type);
   domElement.innerHTML = reactElement.children;
   for (const prop in reactElement.props) {
