@@ -14,4 +14,6 @@ createuser(newUser); //in this ex it was able to pass on much more information p
 
 function createCourse():{name:string,price:number}{
     return {name:"Vue",price:9658}
-}
+};
+
+export {};
