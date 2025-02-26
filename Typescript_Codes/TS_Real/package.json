@@ -1,0 +1,16 @@
+{
+  "name": "ts_real",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "lite:c": "lite-server --open chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
